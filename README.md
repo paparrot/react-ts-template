@@ -12,6 +12,7 @@
 - [x] jest
 - [x] postcss
 - [x] css-modules
+- [x] tailwind css
 
 ## Installation
 
