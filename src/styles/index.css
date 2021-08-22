@@ -1,3 +1,7 @@
+@tailwindcss base;
+@tailwindcss components;
+@tailwindcss utilites;
+
 body {
   margin: 0;
   background-color: var(--bg-color);
@@ -10,4 +14,8 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  @apply text-3xl text-indigo-700;
 }
